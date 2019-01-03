@@ -10,6 +10,8 @@ import UIKit
 
 @IBDesignable
 class newButtonClass: UIButton {
+    
+    //MARK:- Expose editables in xcode
 
     @IBInspectable var cornerRadius : CGFloat = 0 {
         didSet{
